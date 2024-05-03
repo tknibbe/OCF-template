@@ -57,4 +57,4 @@ $className& $className::operator=(const $className& ref){
 	return *this;
 }" > "$className.cpp"
 
-echo "creating orthodox canonical form for class: $className"
+echo "\033[K\033[32m\ncreating orthodox canonical form for class: $className"
