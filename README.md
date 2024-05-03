@@ -17,3 +17,5 @@ git clone https://github.com/tknibbe/42-orthodox-canonical-form-template.git && 
 Simply run 'ocf [ClassName]' in your terminal to create the templates in your local directory.
 
 ![](https://imgur.com/a/sSnq2E3.png)
+![](https://imgur.com/a/9ZwBUcV.png)
+![](https://imgur.com/a/KTe1wc6.png)
