@@ -31,23 +31,23 @@ echo "#include \"$className.hpp\"
 #include <iostream>
 
 $className::$className(void){
-	std::cout << \"Default constructor called\" << std::endl;
+	std::cout << \"$className default constructor called\" << std::endl;
 	/*
 		set default values
 	*/
 }
 
 $className::~$className(void){
-	std::cout << \"Destructor called\" << std::endl;
+	std::cout << \"$className destructor called\" << std::endl;
 }
 
 $className::$className(const $className& ref){
-	std::cout << \"Copy constructor called\" << std::endl;
+	std::cout << \"$className copy constructor called\" << std::endl;
 	*this = ref;
 }
 
 $className& $className::operator=(const $className& ref){
-	std::cout << \"Copy assignment operator called\" << std::endl;
+	std::cout << \"$className copy assignment operator called\" << std::endl;
 	if (this != &ref)
 	{
 		/*
